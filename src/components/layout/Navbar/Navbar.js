@@ -1,12 +1,29 @@
 import logo from "../../../assets/images/Logo.png";
 import NavLink from "./NavLink";
+import { useEffect, useState } from "react";
 
 function Navbar() {
   const navItems = ["About us", "Services", "Use Cases", "Pricing", "Blog"];
 
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 0);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <header className="w-full">
-      <div className="mx-auto flex max-w-[1240px] items-center justify-between px-5 py-8">
+    <header
+      className={`w-full fixed py-2 z-10 bg-white ${scrolled ? "top-0" : "top-10"}`}
+    >
+      <div className="mx-auto flex max-w-[1240px] items-center justify-between px-5">
         {/* Logo */}
         <a href="/" className="flex items-center">
           <img src={logo} alt="Positivus" className="h-9 w-auto" />
