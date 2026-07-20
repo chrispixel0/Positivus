@@ -1,4 +1,4 @@
-import illustration from "../../assets/images/CTA.png";
+import illustration from "../../../../assets/images/CTA.png";
 
 function CTAImage() {
   return (

@@ -1,4 +1,4 @@
-import logo from "../../assets/images/Logo.png";
+import logo from "../../../assets/images/Logo.png";
 import NavLink from "./NavLink";
 
 function Navbar() {
