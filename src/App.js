@@ -1,8 +1,8 @@
-import CompanyLogos from "./components/CompanyLogos/CompanyLogos";
-import CTA from "./components/CTA/CTA";
-import Hero from "./components/Hero/Hero";
-import Navbar from "./components/Navbar/Navbar";
-import Services from "./components/Services/Services";
+import CompanyLogos from "./components/layout/Homepage/CompanyLogos/CompanyLogos";
+import CTA from "./components/layout/Homepage/CTA/CTA";
+import Hero from "./components/layout/Homepage/Hero/Hero";
+import Navbar from "./components/layout/Navbar/Navbar";
+import Services from "./components/layout/Homepage/Services/Services";
 
 function App() {
   return (

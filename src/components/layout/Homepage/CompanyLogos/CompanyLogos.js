@@ -1,4 +1,4 @@
-import logos from "../../data/logo";
+import logos from "../../../../data/logo";
 import LogoItem from "./LogoItem";
 
 function CompanyLogos() {

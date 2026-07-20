@@ -1,4 +1,4 @@
-import ArrowButton from "../ui/ArrowButton";
+import ArrowButton from "../../../ui/ArrowButton";
 
 function ServiceCard({ service }) {
   return (
