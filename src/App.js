@@ -7,6 +7,7 @@ import CaseStudies from "./components/layout/Homepage/CaseStudies/CaseStudies";
 import WorkingProcess from "./components/layout/Homepage/WorkingProcess/WorkingProcess";
 import Team from "./components/layout/Homepage/Team/Team";
 import Testimonials from "./components/layout/Homepage/Testimonials/Testimonials";
+import Contact from "./components/layout/Homepage/Contact/Contact";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <WorkingProcess />
       <Team />
       <Testimonials />
+      <Contact />
     </>
   );
 }
