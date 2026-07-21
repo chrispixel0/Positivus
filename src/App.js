@@ -5,6 +5,8 @@ import Navbar from "./components/layout/Navbar/Navbar";
 import Services from "./components/layout/Homepage/Services/Services";
 import CaseStudies from "./components/layout/Homepage/CaseStudies/CaseStudies";
 import WorkingProcess from "./components/layout/Homepage/WorkingProcess/WorkingProcess";
+import Team from "./components/layout/Homepage/Team/Team";
+import Testimonials from "./components/layout/Homepage/Testimonials/Testimonials";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <CTA />
       <CaseStudies />
       <WorkingProcess />
+      <Team />
+      <Testimonials />
     </>
   );
 }
