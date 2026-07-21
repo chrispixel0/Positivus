@@ -8,6 +8,7 @@ import WorkingProcess from "./components/layout/Homepage/WorkingProcess/WorkingP
 import Team from "./components/layout/Homepage/Team/Team";
 import Testimonials from "./components/layout/Homepage/Testimonials/Testimonials";
 import Contact from "./components/layout/Homepage/Contact/Contact";
+import Footer from "./components/layout/Homepage/Footer/Footer";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Team />
       <Testimonials />
       <Contact />
+      <Footer />
     </>
   );
 }
