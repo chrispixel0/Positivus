@@ -3,10 +3,10 @@ import SocialIcons from "./SocialIcons";
 
 function FooterTop() {
   return (
-    <div className="flex items-center justify-between flex-wrap">
+    <div className="flex items-center justify-between flex-wrap max-md:flex-col">
       <img src={logo} alt="Positivus" className="h-8" />
 
-      <ul className="flex gap-10 text-white">
+      <ul className="flex md:gap-10 text-white max-md:flex-col max-md:gap-1">
         <li>
           <a href="/">About us</a>
         </li>
