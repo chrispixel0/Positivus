@@ -1,36 +1,14 @@
 function FooterSubscribe() {
   return (
     <div className="rounded-[14px] bg-[#292A32] p-10">
-      <div className="flex gap-5">
+      <div className="gap-5 grid grid-cols-2 max-md:grid-cols-1">
         <input
           type="email"
           placeholder="Email"
-          className="
-            w-[285px]
-            rounded-[14px]
-            border
-            border-white
-            bg-transparent
-            px-8
-            py-5
-            text-white
-            placeholder:text-gray-400
-            outline-none
-          "
+          className="max-w-[285px] rounded-[14px] border border-white bg-transparent px-8 py-5 text-white placeholder:text-gray-400 outline-none"
         />
 
-        <button
-          className="
-            rounded-[14px]
-            bg-primary
-            px-9
-            py-5
-            text-dark
-            font-medium
-            transition
-            hover:opacity-90
-          "
-        >
+        <button className="rounded-[14px] bg-primary px-9 py-5 text-dark font-medium transition hover:opacity-90">
           Subscribe to news
         </button>
       </div>

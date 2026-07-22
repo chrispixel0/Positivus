@@ -13,8 +13,8 @@ function CaseStudies() {
             through Our Case Studies
           </p>
         </div>
-        <div className="bg-black rounded-[45px] max-w-[1240px] mx-auto mt-20 py-[70px] flex justify-evenly">
-          <div className="text-white pr-[30px] pl-[60px] text-lg border-r-2 border-white">
+        <div className="bg-black rounded-[45px] max-w-[1240px] md:divide-x divide-white mx-auto mt-20 md:py-[70px] px-[60px] flex majustify-evenly max-md:flex-col max-md:divide-y">
+          <div className="text-white text-lg max-md:pl-[30px] pr-[30px] max-md:py-[20px]">
             <p>
               For a local restaurant, we implemented a targeted PPC campaign
               that resulted in a 50% increase in website traffic and a 25%
@@ -25,7 +25,7 @@ function CaseStudies() {
               <span className="text-xl ml-2">Learn more</span>
             </button>
           </div>
-          <div className="text-white pr-[30px] pl-[30px] text-lg border-r-2 border-white">
+          <div className="text-white text-lg px-[30px] max-md:py-[20px]">
             <p>
               For a B2B software company, we developed an SEO strategy that
               resulted in a first page ranking for key keywords and a 200%
@@ -36,7 +36,7 @@ function CaseStudies() {
               <span className="text-xl ml-2">Learn more</span>
             </button>
           </div>
-          <div className="text-white pr-[60px] pl-[30px] text-lg">
+          <div className="text-white text-lg pl-[30px] max-md:py-[20px]">
             <p>
               For a national retail chain, we created a social media marketing
               campaign that increased followers by 25% and generated a 20%

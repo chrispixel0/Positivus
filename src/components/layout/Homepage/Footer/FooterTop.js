@@ -3,7 +3,7 @@ import SocialIcons from "./SocialIcons";
 
 function FooterTop() {
   return (
-    <div className="flex items-center justify-between">
+    <div className="flex items-center justify-between flex-wrap">
       <img src={logo} alt="Positivus" className="h-8" />
 
       <ul className="flex gap-10 text-white">

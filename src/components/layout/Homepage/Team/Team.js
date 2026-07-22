@@ -14,7 +14,7 @@ function Team() {
             marketing strategies
           </p>
         </div>
-        <div className="max-w-[1240px] grid grid-cols-3 gap-4 mt-[80px]">
+        <div className="max-w-[1240px] grid grid-cols-3 max-md:grid-cols-1 gap-4 mt-[80px]">
           {team.map((member) => (
             <TeamCard
               name={member.name}

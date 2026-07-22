@@ -46,7 +46,11 @@ function ServiceCard({ service }) {
         </button>
       </div>
 
-      <img src={service.image} alt={service.title} className="w-[210px]" />
+      <img
+        src={service.image}
+        alt={service.title}
+        className="w-[210px] object-contain max-md:shrink"
+      />
     </article>
   );
 }

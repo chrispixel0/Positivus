@@ -11,6 +11,7 @@ function ContactImage() {
         top-1/2
         w-[500px]
         -translate-y-1/2
+        object-contain
       "
     />
   );
