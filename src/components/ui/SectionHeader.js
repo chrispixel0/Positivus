@@ -1,6 +1,6 @@
 function SectionHeader({ title, description }) {
   return (
-    <div className="mb-20 flex items-center gap-10">
+    <div className="mb-20 flex items-center gap-10 max-md:flex-col">
       {/* Title */}
       <h2 className="rounded-md bg-primary px-2 py-1 text-[40px] font-medium leading-none text-dark">
         {title}

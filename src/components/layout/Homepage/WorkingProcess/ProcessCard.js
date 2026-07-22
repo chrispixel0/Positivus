@@ -10,7 +10,7 @@ function WorkingProcessCard({ number, title, content }) {
       }`}
     >
       {/* Header */}
-      <div className="flex justify-between items-center">
+      <div className="flex justify-between items-center max-md:flex-col">
         <div className="flex items-center gap-6">
           <h2 className="text-[60px] font-medium">{number}</h2>
           <h3 className="text-[30px] font-medium">{title}</h3>

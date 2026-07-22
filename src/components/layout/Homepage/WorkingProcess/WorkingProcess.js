@@ -5,7 +5,7 @@ function WorkingProcess() {
   return (
     <section className="mt-[140px]">
       <div className="mx-auto max-w-[1240px] px-5">
-        <div className="flex items-center gap-10">
+        <div className="flex items-center gap-10 max-md:flex-col">
           <h2 className="rounded-md bg-primary px-2 text-[40px] font-medium">
             Our Working Process
           </h2>

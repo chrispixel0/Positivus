@@ -11,7 +11,7 @@ function Footer() {
         <div className="rounded-t-[45px] bg-dark px-[60px] pt-[55px] pb-[40px]">
           <FooterTop />
 
-          <div className="mt-[66px] flex justify-between items-start">
+          <div className="mt-[66px] flex justify-between items-start max-md:flex-col">
             <FooterContact />
             <FooterSubscribe />
           </div>

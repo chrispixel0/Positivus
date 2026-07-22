@@ -5,7 +5,7 @@ function ArrowButton({ dark }) {
   return (
     <div
       className={`
-        flex h-10 w-10 items-center justify-center rounded-full
+        flex h-10 w-10 mt-2 items-center justify-center rounded-full
         ${dark ? "bg-white" : "bg-dark"}
       `}
     >

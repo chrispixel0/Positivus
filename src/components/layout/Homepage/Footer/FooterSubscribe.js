@@ -1,6 +1,6 @@
 function FooterSubscribe() {
   return (
-    <div className="rounded-[14px] bg-[#292A32] p-10">
+    <div className="rounded-[14px] bg-[#292A32] p-10 max-md:mt-1.5">
       <div className="gap-5 grid grid-cols-2 max-md:grid-cols-1">
         <input
           type="email"

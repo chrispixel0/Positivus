@@ -15,7 +15,7 @@ function TestimonialSlider() {
   };
 
   return (
-    <div className="mt-20 rounded-[45px] bg-dark px-16 py-20 overflow-hidden">
+    <div className="mt-20 rounded-[45px] bg-dark px-4 py-10 md:px-10 md:py-16 overflow-hidden">
       <div
         className="flex transition-transform duration-500"
         style={{

@@ -12,7 +12,7 @@ function Contact() {
           description="Connect with Us: Let's Discuss Your Digital Marketing Needs"
         />
 
-        <div className="relative overflow-hidden rounded-[45px] bg-light px-[100px] py-[60px]">
+        <div className="relative overflow-hidden rounded-[45px] bg-light md:px-[100px] py-[60px] max-md:px-2.5">
           <div className="flex justify-between items-center">
             <ContactForm />
 

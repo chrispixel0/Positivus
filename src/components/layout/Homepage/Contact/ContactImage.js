@@ -12,6 +12,8 @@ function ContactImage() {
         w-[500px]
         -translate-y-1/2
         object-contain
+        hidden
+        lg:block
       "
     />
   );

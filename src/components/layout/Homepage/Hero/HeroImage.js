@@ -6,7 +6,7 @@ function HeroImage() {
       <img
         src={heroImage}
         alt="Digital Marketing"
-        className="w-[600px] object-contain"
+        className="w-[600px] object-contain hidden lg:block"
       />
     </div>
   );

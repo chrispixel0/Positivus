@@ -7,7 +7,7 @@ function Services() {
       <div className="mx-auto max-w-[1240px] px-5">
         {/* Heading */}
 
-        <div className="mb-20 flex items-center gap-10">
+        <div className="mb-20 flex items-center gap-10 max-md:flex-col">
           <h2 className="rounded-md bg-primary px-2 text-[40px] font-medium">
             Services
           </h2>
